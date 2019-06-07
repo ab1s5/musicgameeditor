@@ -62,8 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BarTextController.cs" />
     <Compile Include="Assets\Scripts\ChartEditManager.cs" />
-    <None Include="Assets\Charts\yee.txt" />
+    <Compile Include="Assets\Scripts\LineTextController.cs" />
+    <Compile Include="Assets\Scripts\NoteInstance.cs" />
+    <None Include="Assets\Resources\Charts\chart.txt" />
+    <None Include="Assets\Resources\Charts\edited.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Gravity/Documents/GitHub/musicgameeditor/Music Circle Editor/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
